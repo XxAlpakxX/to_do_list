@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>695</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QCalendarWidget" name="calendarWidget">
+     <property name="styleSheet">
+      <string notr="true">
+        background-color: #2e2e2e;
+        color: #A13722;
+        font-size: 14px;
+    
+    QCalendarWidget QToolButton 
+        color: #ffaa00;
+        font-weight: bold;
+    
+    QCalendarWidget QMenu 
+        background-color: #3e3e3e;
+    
+    QCalendarWidget QSpinBox 
+        background-color: #404040;
+        color: #A13722;
+    </string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
